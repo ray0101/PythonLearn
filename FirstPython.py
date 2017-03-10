@@ -15,10 +15,10 @@ print "请输入您的年龄:"
 age=raw_input();
 if age<18:
     print name,"您还是个小孩儿,赶紧玩吧"
-elif age>18 or age<30:
-    print name,"您已经成年了,别玩了"
+elif (age>18 and age<30):
+    print name,"您还不到30,别光玩了"
 else:
-    print name,"您都30了还瞎玩呢"
+    print name,"您都30多了还瞎玩呢"
 """IF ELSE"""
 
 
