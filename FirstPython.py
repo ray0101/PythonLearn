@@ -81,3 +81,7 @@ s.add(4)
 print s
 s.remove(4)
 print s
+def mymethod(x=1):
+    return x+1
+sum=mymethod(3)
+print sum
