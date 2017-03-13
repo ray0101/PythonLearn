@@ -11,7 +11,7 @@ print '请输入您的名字:'
 name = raw_input();
 print "您的名字是:", name
 """True False"""
-age = int(raw_input());
+age = int(raw_input("请输入您的年龄:"));
 if int(age) > 30:
     print name, "您都30多了还瞎玩呢"
 elif int(age) > 18:
