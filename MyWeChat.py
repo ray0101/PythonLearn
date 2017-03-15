@@ -17,6 +17,7 @@ def text_reply(msg):
         returnmsg=r.get('text')
     except:
         returnmsg=""
+    time.sleep(3)
     itchat.send('%s' % returnmsg, msg['FromUserName'])
 
 @itchat.msg_register([PICTURE, RECORDING, ATTACHMENT, VIDEO])
